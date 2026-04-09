@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "alice",
+      "password": "alice123",
+      "email": "alice@ejemplo.com"
+    },
+    {
+      "id": 2,
+      "name": "bruno",
+      "password": "bruno123",
+      "email": "bruno@ejemplo.com"
+    },
+    {
+      "id": 3,
+      "name": "carla",
+      "password": "carla123",
+      "email": "carla@ejemplo.com"
+    },
+    {
+      "id": 4,
+      "name": "diego",
+      "password": "diego123",
+      "email": "diego@ejemplo.com"
+    },
+    {
+      "id": 5,
+      "name": "elena",
+      "password": "elena123",
+      "email": "elena@ejemplo.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Mi primera semana aprendiendo Angular",
+      "content": "Llevo una semana aprendiendo Angular y al principio me resultó bastante abrumador. Entre módulos, servicios e inyección de dependencias, sentía que todo era demasiado complejo.\n\nDespués de crear una pequeña aplicación de tareas, empecé a entender mejor la estructura y ahora me gusta mucho lo organizado que es todo.\n\n¿Algún consejo para seguir mejorando sin saturarme?",
+      "createdAt": "2024-03-01"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Problemas manteniendo proyectos personales",
+      "content": "Empiezo proyectos con mucha motivación pero a los pocos días pierdo el foco. El código se vuelve desordenado y termino abandonando.\n\nEstoy intentando cambiar eso usando pequeñas metas diarias, pero aún así me cuesta mantener constancia.\n\n¿Cómo lo hacéis vosotros?",
+      "createdAt": "2024-03-02"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "title": "De diseño a desarrollo frontend",
+      "content": "Vengo de UX/UI y estoy aprendiendo desarrollo frontend. Me está ayudando mucho entender cómo se implementan realmente los diseños.\n\nCreo que tener ambas perspectivas es muy útil, pero a veces me cuesta equilibrar ambas cosas.",
+      "createdAt": "2024-03-03"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "title": "Backend vs Frontend",
+      "content": "Siempre he trabajado en frontend pero últimamente me está llamando mucho la atención el backend.\n\n¿Creéis que merece la pena aprender ambos o es mejor especializarse?",
+      "createdAt": "2024-03-03"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "title": "Burnout en programación",
+      "content": "Últimamente me siento bastante quemada. Paso muchas horas delante del ordenador y siento que no avanzo lo suficiente.\n\n¿Os ha pasado? ¿Cómo lo gestionáis?",
+      "createdAt": "2024-03-04"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "title": "Primer proyecto completo terminado",
+      "content": "Después de varias semanas por fin terminé mi primera app completa con login, listado y detalles.\n\nNo es perfecta, pero me ha dado mucha confianza ver algo funcionando de principio a fin.",
+      "createdAt": "2024-03-05"
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "title": "¿Vale la pena aprender TypeScript?",
+      "content": "Estoy pensando en pasar de JavaScript a TypeScript, pero no sé si realmente merece la pena.\n\n¿Se nota tanto la diferencia en proyectos reales?",
+      "createdAt": "2024-03-05"
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "title": "Consejos para mejorar en CSS",
+      "content": "CSS siempre ha sido mi punto débil. Me cuesta mucho hacer layouts complejos sin romper algo.\n\n¿Algún recurso o consejo práctico?",
+      "createdAt": "2024-03-06"
+    },
+    {
+      "id": 9,
+      "userId": 4,
+      "title": "Aprender APIs REST",
+      "content": "Estoy empezando a trabajar con APIs REST y me gustaría entender mejor buenas prácticas.\n\n¿Qué debería aprender primero?",
+      "createdAt": "2024-03-06"
+    },
+    {
+      "id": 10,
+      "userId": 5,
+      "title": "Ideas de proyectos para portfolio",
+      "content": "Quiero mejorar mi portfolio pero no sé qué proyectos destacan realmente.\n\n¿Alguna idea que pueda marcar la diferencia?",
+      "createdAt": "2024-03-07"
+    }
+  ],
+  "tags": [
+    { "id": 1, "name": "Angular" },
+    { "id": 2, "name": "JavaScript" },
+    { "id": 3, "name": "CSS" },
+    { "id": 4, "name": "Backend" },
+    { "id": 5, "name": "Career" }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Me pasó exactamente lo mismo con Angular. Al principio abruma mucho, pero cuando haces un proyecto completo todo encaja.\n\nTe recomendaría seguir construyendo cosas pequeñas y no obsesionarte con entender todo desde el inicio."
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 3,
+      "content": "A mí me ayudó mucho seguir un curso mientras hacía un proyecto paralelo. Así aplicas lo aprendido inmediatamente."
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 1,
+      "content": "Lo que dices es súper común. A mí me funcionó dividir los proyectos en tareas muy pequeñas y alcanzables.\n\nTambién intento no empezar nada nuevo hasta terminar lo anterior."
+    },
+    {
+      "id": 4,
+      "postId": 2,
+      "userId": 4,
+      "content": "Yo empecé a usar Notion para organizarme y me ayudó muchísimo a mantener el foco."
+    },
+    {
+      "id": 5,
+      "postId": 3,
+      "userId": 2,
+      "content": "Tener background en diseño es una ventaja enorme. Muchos desarrolladores no cuidan la UX."
+    },
+    {
+      "id": 6,
+      "postId": 3,
+      "userId": 1,
+      "content": "Intenta replicar diseños reales, eso ayuda muchísimo a mejorar rápido."
+    },
+    {
+      "id": 7,
+      "postId": 4,
+      "userId": 5,
+      "content": "Creo que entender ambos mundos es clave, aunque luego te especialices."
+    },
+    {
+      "id": 8,
+      "postId": 5,
+      "userId": 2,
+      "content": "Sí, el burnout es muy común en este sector. Intenta descansar y no exigirte tanto."
+    },
+    {
+      "id": 9,
+      "postId": 5,
+      "userId": 3,
+      "content": "A mí me ayudó reducir horas y centrarme en calidad en vez de cantidad."
+    },
+    {
+      "id": 10,
+      "postId": 6,
+      "userId": 4,
+      "content": "Terminar proyectos es lo más importante. Mucha gente empieza pero no acaba nada."
+    },
+    {
+      "id": 11,
+      "postId": 7,
+      "userId": 1,
+      "content": "TypeScript vale muchísimo la pena en proyectos grandes. Te evita muchos errores."
+    },
+    {
+      "id": 12,
+      "postId": 7,
+      "userId": 3,
+      "content": "Al principio cuesta, pero luego no quieres volver a JavaScript."
+    },
+    {
+      "id": 13,
+      "postId": 8,
+      "userId": 2,
+      "content": "Aprende bien Flexbox y Grid, son fundamentales."
+    },
+    {
+      "id": 14,
+      "postId": 8,
+      "userId": 5,
+      "content": "Practica replicando diseños de Dribbble o Figma."
+    },
+    {
+      "id": 15,
+      "postId": 9,
+      "userId": 1,
+      "content": "Empieza entendiendo bien los métodos HTTP y códigos de estado."
+    },
+    {
+      "id": 16,
+      "postId": 10,
+      "userId": 2,
+      "content": "Haz proyectos completos con login, CRUD y API real."
+    },
+    {
+      "id": 17,
+      "postId": 10,
+      "userId": 3,
+      "content": "Un clon de app real suele llamar bastante la atención."
+    }
+  ],
+  "postTags": [
+    { "id": 1, "postId": 1, "tagId": 1 },
+    { "id": 2, "postId": 2, "tagId": 5 },
+    { "id": 3, "postId": 3, "tagId": 3 },
+    { "id": 4, "postId": 3, "tagId": 5 },
+    { "id": 5, "postId": 4, "tagId": 4 },
+    { "id": 6, "postId": 4, "tagId": 5 },
+    { "id": 7, "postId": 5, "tagId": 5 },
+    { "id": 8, "postId": 6, "tagId": 1 },
+    { "id": 9, "postId": 6, "tagId": 2 },
+    { "id": 10, "postId": 7, "tagId": 2 },
+    { "id": 11, "postId": 8, "tagId": 3 },
+    { "id": 12, "postId": 9, "tagId": 4 },
+    { "id": 13, "postId": 9, "tagId": 2 },
+    { "id": 14, "postId": 10, "tagId": 5 }
+  ]
+}
