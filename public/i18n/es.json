@@ -1,0 +1,144 @@
+{
+  "app": {
+    "title": "Posts y Comentarios"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "loginButton": "Acceder",
+    "loginError": "Nombre de usuario o contraseña incorrectos",
+    "welcomeBack": "¡Bienvenido de nuevo!",
+    "welcome": "Bienvenido",
+    "welcomeSubtitle": "Introduce tus credenciales",
+    "usernamePlaceholder": "Usuario",
+    "passwordPlaceholder": "Contraseña"
+  },
+  "posts": {
+    "title": "Posts",
+    "listTitle": "Lista de posts",
+    "newPost": "Nuevo Post",
+    "editPost": "Editar Post",
+    "deletePost": "Eliminar Post",
+    "createPost": "Crear Post",
+    "postTitle": "Título",
+    "postContent": "Contenido",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "noPostsFound": "No se encontraron posts",
+    "loadingPosts": "Cargando posts...",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este post?",
+    "postedBy": "Publicado por",
+    "createdAt": "Creado el",
+    "updatedAt": "Actualizado el",
+    "searchPlaceholder": "Buscar posts...",
+    "filterByAuthor": "Filtrar por autor",
+    "filterByTag": "Filtrar por tag",
+    "allAuthors": "Todos los autores",
+    "allTags": "Todos los tags",
+    "showing": "Mostrando",
+    "of": "de",
+    "results": "resultados",
+    "noResults": "No se encontraron resultados"
+  },
+  "postDetail": {
+    "back": "Volver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "comments": "Comentarios",
+    "noComments": "No hay comentarios aún. ¡Sé el primero en comentar!",
+    "addComment": "Añadir comentario",
+    "commentPlaceholder": "Escribe un comentario...",
+    "publishComment": "Publicar comentario",
+    "confirmDelete": "¿Seguro que quieres eliminar este post?",
+    "deleted": "Post eliminado",
+    "commentPublished": "Comentario publicado",
+    "deleteComment": "Eliminar comentario",
+    "confirmDeleteComment": "¿Seguro que quieres eliminar este comentario?",
+    "commentDeleted": "Comentario eliminado",
+    "editComment": "Editar comentario",
+    "cancelEdit": "Cancelar",
+    "saveEdit": "Guardar",
+    "commentUpdated": "Comentario actualizado",
+    "commentsHidden": "Desplázate para ver los comentarios"
+  },
+  "comments": {
+    "title": "Comentarios",
+    "newComment": "Nuevo Comentario",
+    "addComment": "Agregar un comentario",
+    "commentContent": "Escribe tu comentario...",
+    "submit": "Enviar",
+    "delete": "Eliminar",
+    "noComments": "No hay comentarios aún. ¡Sé el primero en comentar!",
+    "loadingComments": "Cargando comentarios...",
+    "confirmDelete": "¿Estás seguro de que quieres eliminar este comentario?",
+    "commentBy": "Comentario de"
+  },
+  "nav": {
+    "home": "Inicio",
+    "posts": "Posts",
+    "myPosts": "Mis Posts",
+    "profile": "Perfil"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio"
+  },
+  "forbidden": {
+    "title": "Acceso denegado",
+    "description": "No tienes permiso para acceder a este contenido.",
+    "backHome": "Volver al inicio"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La ruta que has intentado abrir no existe.",
+    "backHome": "Volver al inicio"
+  },
+  "newPost": {
+    "title": "Nuevo post",
+    "subtitle": "Escribe tu post",
+    "editTitle": "Editar post",
+    "editSubtitle": "Modifica el contenido de tu post",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Título del post...",
+    "contentLabel": "Contenido",
+    "contentPlaceholder": "Contenido del post...",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "Angular, JavaScript, CSS",
+    "tagsHint": "Separa los tags con comas. Los nuevos se crearán automáticamente.",
+    "cancel": "Cancelar",
+    "publish": "Publicar",
+    "save": "Guardar",
+    "created": "Post creado",
+    "updated": "Post actualizado",
+    "noTagsAvailable": "No hay tags disponibles"
+  },
+  "topbar": {
+    "createPost": "Crear post",
+    "hello": "Hola"
+  },
+  "date": {
+    "justNow": "hace un momento",
+    "minutesAgo": "hace {{count}} min",
+    "hoursAgo": "hace {{count}}h",
+    "daysAgo": "hace {{count}}d"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ha ocurrido un error",
+    "forbidden": "No tienes permiso para hacer esto",
+    "success": "Éxito",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "back": "Volver",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "searchPlaceholder": "Buscar...",
+    "noResultsFound": "No se encontraron resultados"
+  }
+}
